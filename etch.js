@@ -30,7 +30,8 @@ function killTheKids(div){
 }
 
 function colorChange(square) {
-    square.classList.add("drawn");
+    let color = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+    square.style.backgroundColor = color;
 }
 
 function checkSides(side){

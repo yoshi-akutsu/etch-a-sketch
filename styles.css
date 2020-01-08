@@ -1,20 +1,23 @@
-.flex-container{
+#container{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
 
+    width: 500px;
+    height: 500px;
+
+    text-align: center;
 }
 .littleSquare{
     flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis
+    background-color:	#D0D0D0;
 }
-
 .bigSquare{
-    width: 500px;
-    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
-
 header{
     padding-bottom: 2em;
+}
+.drawn{
+    background-color: black;
 }

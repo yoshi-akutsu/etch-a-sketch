@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.littleSquare{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis
+}
+
+.bigSquare{
+    width: 500px;
+    max-width: 500px;
+}
+
+header{
+    padding-bottom: 2em;
+}
